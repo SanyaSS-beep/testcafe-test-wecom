@@ -21,5 +21,8 @@
   "homepage": "https://github.com/SanyaSS-beep/testcafe-test-wecom#readme",
   "devDependencies": {
     "testcafe": "^2.4.0"
+  },
+  "dependencies": {
+    "csv-parse": "^5.3.6"
   }
 }

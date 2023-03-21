@@ -1,5 +1,5 @@
 {
-  "name": "testcafe-test-practice",
+  "name": "testcafe-test-wecom",
   "version": "1.0.0",
   "description": "This project is aimed at using TestCafe",
   "main": "index.js",
@@ -10,5 +10,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "mia mao",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanyaSS-beep/testcafe-test-wecom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SanyaSS-beep/testcafe-test-wecom/issues"
+  },
+  "homepage": "https://github.com/SanyaSS-beep/testcafe-test-wecom#readme"
 }

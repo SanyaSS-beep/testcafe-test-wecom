@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  testcafe:
+    image: testcafe/testcafe
+    volumes:
+      - .:/tests
+      - ./report:/tests/report
+      - ./screenshots:/tests/screenshots
+    working_dir: /tests
+    entrypoint: npm

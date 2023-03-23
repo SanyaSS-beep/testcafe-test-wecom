@@ -1,0 +1,19 @@
+{
+    "skipJsErrors": true,
+        "reporter": {
+            "name": "xunit",
+            "output": "reports/report.xml"
+        },
+        "screenshots": {
+            "path": "screenshots/",
+            "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",
+            "fullPage": true,
+            "takeOnFails": true
+        },
+        "disableScreenshots": true,
+        "selectorTimeout": 3000,
+        "assertionTimeout": 1000,
+        "pageLoadTimeout": 1000,
+        "pageRequestTimeout": 8000,
+        "browserInitTimeout": 180000
+}
